@@ -47,6 +47,9 @@
     <Reference Include="Sitecore.XA.Feature.CreativeExchange">
       <HintPath>..\..\lib\Sitecore.XA.Feature.CreativeExchange.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Foundation.IoC">
+      <HintPath>..\..\lib\Sitecore.XA.Foundation.IoC.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Presentation">
       <HintPath>..\..\lib\Sitecore.XA.Foundation.Presentation.dll</HintPath>
     </Reference>
@@ -61,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XA\Feature\CreativeExchange\Pipelines\Import\RenderingProcessing\StylesImporter.cs" />
+    <Compile Include="XA\Feature\CreativeExchange\Pipelines\Import\RenderingProcessing\RenderingDetailsExtractor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.9435.config" />
